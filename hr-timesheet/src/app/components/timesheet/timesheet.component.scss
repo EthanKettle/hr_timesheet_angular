@@ -11,3 +11,50 @@ h2 {
 .cards {
     margin: auto;
 }
+
+mat-form-field {
+    width: calc(100% - 40px);
+}
+
+.hours {
+    margin-top: 30px;
+}
+
+.hours {
+    min-height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hours-input {
+    max-width: 75px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.total-cell {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 1px solid black;
+
+    &:not(:first-child) {
+        padding-left: 15px;
+    }
+}
+
+td {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+tr td {
+    border-bottom:1pt solid #C1C1C1;
+}
